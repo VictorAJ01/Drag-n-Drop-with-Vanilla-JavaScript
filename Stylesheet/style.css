@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#draggable {
+    width: 250px;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dropzone {
+    background-color: rgb(34, 34, 34);
+    width: 300px;
+    height: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    float: left;
+    margin: 0 15px;
+}
+
+.dragging {
+    opacity: .5;
+}
+
+.dropzone.dragover {
+    /* border-style: dashed 1px solid; */
+    background-color: rgb(196, 196, 196);
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.indigo {
+    background-color: indigo;
+}
+.white {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.droptarget {
+    display: flex;
+}
