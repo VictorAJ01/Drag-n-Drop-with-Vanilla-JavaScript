@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 
-#draggable {
+#draggable, .reset {
     width: 15.625rem;
     height: 60px;
     font-size: 2rem;
@@ -14,6 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: pointer;
 }
 
 .dropzone {
@@ -94,4 +95,13 @@ body {
 
 h1 {
     text-align: center;
+}
+
+.reload {
+    background-color: red;
+    border-color: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 8px;
 }
