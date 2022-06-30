@@ -39,6 +39,6 @@ Dragenter: it is fired when the mouse enters an element while a drag is occurrin
 Dragleave : This event is fired when the mouse leaves an element while a drag is occurring.
 Drop: The drop event is fired on the element where the drop occurred at the end of the drag operation.
 
-## Authors
+## Author
 
 - [@Victor Chukwuemeka](https://www.github.com/AJcreativity001)
